@@ -1,70 +1,55 @@
-# Getting Started with Create React App
+This is my React Hooks Assignment project that demonstrates the use of all major React Hooks combined in a single functional application. The project is a fully functional Task Manager Application, where users can add, edit, delete, complete, and filter tasks. It also includes features like Dark Mode toggle and task autosaving to local storage for persistence.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Features Implemented:
 
-## Available Scripts
+Add, Edit, Delete Tasks
+Mark Tasks as Completed/Incomplete
+Filter Tasks (All, Completed, Incomplete)
+Dark/Light Mode Toggle (Saved using localStorage)
+Autosave Tasks to localStorage
+Optimized Filtering and Performance
+Input Auto-focus on Load
+User Notifications on Actions
+React Hooks Used in This Project:
 
-In the project directory, you can run:
+useState - Manage input fields, task list, notifications
+useEffect - Side effects like saving to localStorage, showing notifications
+useContext - Global Dark Mode state management
+useReducer - Complex state management for tasks (add, delete, edit, toggle)
+useRef - Directly access and focus input fields
+useMemo - Optimize task filtering (performance boost)
+useCallback - Memoize handlers to prevent unnecessary re-renders
+Technologies Used:
 
-### `npm start`
+React.js (Functional Components)
+React Hooks
+CSS for Styling
+LocalStorage (for data persistence)
+Project Setup & Installation:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Clone the repository: git clone https://github.com/MeetSutariya2/-React_Hooks_Assignment_3.git
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Navigate to project directory: cd React_Hooks_Assignment_3
 
-### `npm test`
+Install dependencies: npm install
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Start the project: npm start
 
-### `npm run build`
+How to Use the App:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Add a Task: Type task name in the input and click Add Task.
+Edit a Task: Click Edit, update the title, and Save.
+Delete a Task: Click the Delete button next to a task.
+Mark Complete: Click on a task name to mark it complete/incomplete.
+Filter Tasks: Use the dropdown to filter tasks.
+Toggle Dark Mode: Use the Dark/Light mode switch to toggle themes.
+Project Structure:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+/src
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+App.js (Main React component with all hooks)
+App.css (Styling for the app)
+index.js (Entry point to render App)
+What I Learned:
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Through this project, I learned how to implement and combine all important React Hooks to create a functional and optimized application. I practiced managing complex state using useReducer, handling side effects with useEffect, creating a global context for dark mode with useContext, and optimizing performance using useMemo and useCallback. I also learned to use useRef to handle input fields efficiently without unnecessary re-renders. This project gave me practical experience in building a real-world React app using functional components and hooks.
