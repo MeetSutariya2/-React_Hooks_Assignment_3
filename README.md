@@ -1,3 +1,4 @@
+React Hooks Assignment 3
 This is my React Hooks Assignment project that demonstrates the use of all major React Hooks combined in a single functional application. The project is a fully functional Task Manager Application, where users can add, edit, delete, complete, and filter tasks. It also includes features like Dark Mode toggle and task autosaving to local storage for persistence.
 
 Features Implemented:
